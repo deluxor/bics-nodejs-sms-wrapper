@@ -1,14 +1,14 @@
 {
   "name": "sms",
   "version": "1.0.0",
-  "description": "Unofficial Node.JS SDK for BICS SMS Gateway Service",
+  "description": "Unofficial Node.JS Wrapper for BICS SMS Gateway Service",
   "main": "sms.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deluxor/microsoft-cognitive-face-nodejs.git"
+    "url": "git+https://github.com/deluxor/bics-nodejs-sms-wrapper.git"
   },
   "keywords": [
     "sms-gateway",
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/deluxor/microsoft-cognitive-face-nodejs#readme",
   "dependencies": {
-    "needle": "^1.5.0"
+    "superagent": "^3.5.2"
   }
 }
